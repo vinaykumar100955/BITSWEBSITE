@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+}
+#links{
+     border: solid 1px;
+     height: 38px;
+     background-color: palevioletred;
+     line-height: 38px;
+}
+#text1,#text2,#text3,#text4{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    padding-right: 21px;
+}
+#text1{
+    padding-left: 35px;
+}
+.out1{
+    border: solid 1px;
+    height: 140px;
+    display: flex;
+}
+#in1,#in2{
+    border: solid 1px;
+    height: 140px;
+}
+#in1{
+    width: 140px;
+}
+#in2{
+    width: 1370px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+#clg{
+    font: 56px;
+    color: red;
+}
+#txt1,#txt2{
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+#ugc{
+    background-color: black;
+    height: 25px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 200px;
+    float: left;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    margin-right: 2px;
+}
+ul li a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+.logos{
+    border: solid 1px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    background-color: seashell;
+}
+#lg1,#lg2,#lg3,#lg4,#lg5{
+    border: solid 1px;
+    height: 180px;
+    width: 180px;
+    border-radius: 150px;
+}
+.obox{
+    border: solid 1px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+#inbox1,#inbox2,#inbox3{
+    border: solid 1px;
+    height: 600px;
+}
+#inbox1{
+    width: 400px;
+    background-image: url(pg1.avif);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    0%{
+        background-image: url(pg2.jpeg);
+    }
+    10%{
+        background-image: url(pg3.jpeg);
+    }
+    20%{
+        background-image: url(pg4.jpeg);
+    }
+    30%{
+        background-image: url(pg6.jpeg);
+    }
+    40%{
+        background-image: url(pg6.jpeg);
+    }
+
+}
+#inbox2,#inbox3{
+    width: 400px;
+    text-align: center;
+
+}
+
